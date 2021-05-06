@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "No Download Shelf",
+  "version": "0.1.0",
+  "description": "Disable download shelf/bar",
+  "permissions": [
+    "downloads",
+    "downloads.shelf"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [ "background.js" ]
+  }
+}
